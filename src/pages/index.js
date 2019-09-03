@@ -1,11 +1,22 @@
 import React from "react";
-import Construction from '../images/under_construction.svg';
+import styled from 'styled-components';
+import Layout from "../components/layout"
+import UnderConstruction from './UnderConstruction';
+
+
+const ProjectDescription = styled.div`
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    top: 0,
+    height: auto;
+    width: auto;
+`
 
 export default () => (
-    <div>
-        <h1>COMING SOON</h1>
-        <h2>My website is under construction as it goes through lots of changes!</h2>
-        <img className = "construction-logo" src= {Construction} alt = "Under construction image" />
-
-    </div>
+    <Layout>
+        <ProjectDescription>
+            <UnderConstruction/>
+        </ProjectDescription>
+    </Layout>
 )

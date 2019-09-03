@@ -2,8 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Logo from '../images/jasminegump_logo.svg';
 import styled from "styled-components"; // 💅 yay!
-import theme from './theme';
-const { colors, fontSizes, fonts } = theme;
+import Heading from '../styles/Heading';
 
 
 const CustomBox = styled.div`
@@ -20,16 +19,10 @@ const StyledLink = styled(Link)`
   color: red;
 `
 
-const Heading = styled.h3`
-    color: ${colors.green};
-    font-size: ${fontSizes.h3};
-    font-family: ${fonts.SFMono};
-`
 const Image = styled.img`
     display: block;
     width: 10%;
     margin: auto;
-
 `
 class SCDemoPage extends React.Component {
   render() {
