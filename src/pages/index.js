@@ -2,6 +2,7 @@ import React from "react";
 import styled from 'styled-components';
 import Layout from "../components/layout"
 import UnderConstruction from './UnderConstruction';
+import "semantic-ui-css/semantic.min.css";
 
 
 const ProjectDescription = styled.div`
@@ -16,7 +17,7 @@ const ProjectDescription = styled.div`
 export default () => (
     <Layout>
         <ProjectDescription>
-            <UnderConstruction/>
+            <UnderConstruction />
         </ProjectDescription>
     </Layout>
 )
