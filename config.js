@@ -1,12 +1,12 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Spectral', // <title>
+  siteTitle: 'Jasmine Gump', // <title>
   manifestName: 'Spectral',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
+  manifestIcon: 'src/assets/img/v5.png',
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Jasmine Gump',
   subHeading: 'Web Developer. Artist. Avid Reader.',
@@ -17,6 +17,12 @@ module.exports = {
       icon: 'fa-github',
       name: 'Github',
       url: 'https://github.com/jasminegmp',
+    },
+    {
+      style: 'brands',
+      icon: 'fa-instagram',
+      name: 'Instagram',
+      url: 'https://instagram.com/jasminegump',
     },
     {
       style: 'brands',

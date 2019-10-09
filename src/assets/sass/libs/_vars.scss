@@ -1,3 +1,12 @@
+$pink: #F64C72;
+$light-purple: #99738E;
+$dark-purple: #553D67;
+$navy-blue: #2F2FA2;
+$indigo-blue: #242582;
+$orange: #FF7034;
+$light-orange: #FFA681;
+$white: #FFFFFF;
+
 // Misc.
 	$misc: (
 		max-spotlights:		10,
@@ -31,7 +40,7 @@
 
 // Palette.
 	$palette: (
-		bg:					#2e3842,
+		bg:					$indigo-blue,
 		fg:					#fff,
 		fg-bold:			#fff,
 		fg-light:			rgba(255,255,255,0.5),
@@ -41,10 +50,10 @@
 		border2-bg:			rgba(144,144,144,0.5),
 
 		accent1: (
-			bg:				#21b2a6,
+			bg:				$dark-purple,
 			fg-bold:		#ffffff,
-			fg:				mix(#21b2a6, #ffffff, 25%),
-			fg-light:		mix(#21b2a6, #ffffff, 40%),
+			fg:				mix($dark-purple, #ffffff, 25%),
+			fg-light:		mix($dark-purple, #ffffff, 40%),
 			border:			rgba(0,0,0,0.125),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(0,0,0,0.25),
@@ -52,10 +61,10 @@
 		),
 
 		accent2: (
-			bg:				#00ffcc,
+			bg:				$pink,
 			fg-bold:		#ffffff,
-			fg:				mix(#00ffcc, #ffffff, 25%),
-			fg-light:		mix(#00ffcc, #ffffff, 40%),
+			fg:				mix($pink, #ffffff, 25%),
+			fg-light:		mix($pink, #ffffff, 40%),
 			border:			rgba(0,0,0,0.125),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(0,0,0,0.25),
@@ -63,10 +72,10 @@
 		),
 
 		accent3: (
-			bg:				#00f0ff,
+			bg:				$light-purple,
 			fg-bold:		#ffffff,
-			fg:				mix(#00f0ff, #ffffff, 25%),
-			fg-light:		mix(#00f0ff, #ffffff, 40%),
+			fg:				mix($light-purple, #ffffff, 25%),
+			fg-light:		mix($light-purple, #ffffff, 40%),
 			border:			rgba(0,0,0,0.125),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(0,0,0,0.25),
@@ -74,10 +83,10 @@
 		),
 
 		accent4: (
-			bg:				#76ddff,
+			bg:				$navy-blue,
 			fg-bold:		#ffffff,
-			fg:				mix(#76ddff, #ffffff, 25%),
-			fg-light:		mix(#76ddff, #ffffff, 40%),
+			fg:				mix($navy-blue, #ffffff, 25%),
+			fg-light:		mix($navy-blue, #ffffff, 40%),
 			border:			rgba(0,0,0,0.125),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(0,0,0,0.25),
@@ -85,10 +94,10 @@
 		),
 
 		accent5: (
-			bg:				#505393,
+			bg:				$indigo-blue,
 			fg-bold:		#ffffff,
-			fg:				mix(#505393, #ffffff, 25%),
-			fg-light:		mix(#505393, #ffffff, 40%),
+			fg:				mix($indigo-blue, #ffffff, 25%),
+			fg-light:		mix($indigo-blue, #ffffff, 40%),
 			border:			rgba(0,0,0,0.125),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(0,0,0,0.25),
@@ -96,10 +105,10 @@
 		),
 
 		accent6: (
-			bg:				#ed4933,
+			bg:				$orange,
 			fg-bold:		#ffffff,
-			fg:				mix(#ed4933, #ffffff, 25%),
-			fg-light:		mix(#ed4933, #ffffff, 40%),
+			fg:				mix($orange, #ffffff, 25%),
+			fg-light:		mix($orange, #ffffff, 40%),
 			border:			rgba(0,0,0,0.125),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(0,0,0,0.25),
