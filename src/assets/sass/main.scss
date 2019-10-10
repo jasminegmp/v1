@@ -1736,49 +1736,27 @@ $bottom-gradient: $indigo-blue;
 		}
 	}
 
-/* CTA */
+/* Contact */
 
-	#cta {
+	#contact {
+
 		.inner {
 			@include vendor('display', 'flex');
 			max-width: 45em;
+			text-align: center;
 
 			header {
 				@include vendor('order', '1');
 				padding-right: 3em;
-				width: 70%;
+				width: 100%;
 
 				p {
 					color: inherit;
 				}
 			}
 
-			.actions {
-				@include vendor('order', '2');
+			a {
 				width: 30%;
-			}
-
-			@include breakpoint('<=medium') {
-				display: block;
-				text-align: center;
-
-				header {
-					padding-right: 0;
-					width: 100%;
-				}
-
-				.actions {
-					margin-left: auto;
-					margin-right: auto;
-					max-width: 20em;
-					width: 100%;
-				}
-			}
-
-			@include breakpoint('<=small') {
-				.actions {
-					max-width: none;
-				}
 			}
 		}
 	}

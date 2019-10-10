@@ -17,8 +17,8 @@ const IndexPage = () => (
         <ul className="actions special">
           <li>
             <Scroll type="id" element="one">
-              <a href="/#" className="button primary">
-                Explore
+              <a href="#two" className="button primary">
+                Get in touch
               </a>
             </Scroll>
           </li>
@@ -26,7 +26,7 @@ const IndexPage = () => (
       </div>
       <Scroll type="id" element="one">
         <a href="#one" className="more">
-          Learn More
+          Read More
         </a>
       </Scroll>
     </section>
@@ -177,27 +177,18 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section id="cta" className="wrapper style4">
+    <section id="contact" className="wrapper style4">
       <div className="inner">
         <header>
-          <h2>Arcue ut vel commodo</h2>
+          <h2>Get in Touch</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
+            For freelance opportunities, potential projects, or saying hi, my inbox is always open!
           </p>
+          <a href="/#" className="button fit primary">
+            Say Hi!
+          </a>
         </header>
-        <ul className="actions stacked">
-          <li>
-            <a href="/#" className="button fit primary">
-              Activate
-            </a>
-          </li>
-          <li>
-            <a href="/#" className="button fit">
-              Learn More
-            </a>
-          </li>
-        </ul>
+        
       </div>
     </section>
   </Layout>
